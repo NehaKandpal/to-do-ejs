@@ -1,0 +1,25 @@
+{
+    "name": "practice",
+    "version": "1.0.0",
+    "description": "A personal to-do application",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/NehaKandpal/personal-to-do.git"
+    },
+    "keywords": [],
+    "author": "Your Name",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/NehaKandpal/personal-to-do/issues"
+    },
+    "homepage": "https://github.com/NehaKandpal/personal-to-do#readme",
+    "dependencies": {
+      "express": "^4.17.1",
+      "ejs": "^3.1.6"
+    }
+  }
+  
