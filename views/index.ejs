@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To-Do List</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <% include header %>
+  <div class="container">
+    <h1>To-Do List</h1>
+    <form class="form" action="/" method="POST">
+      <input type="text" name="newTask" placeholder="New Task" required>
+      <button class="form-submit" type="submit">Add Task</button>
+    </form>
+    <ul class="cards">
+      <% tasks.forEach(function(task) { %>
+        <li class="card-item"><%= task %></li>
+      <% }) %>
+    </ul>
+  </div>
+  <% include footer %>
+</body>
+</html>
