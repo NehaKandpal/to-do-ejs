@@ -1,25 +1,18 @@
 {
-    "name": "practice",
-    "version": "1.0.0",
-    "description": "A personal to-do application",
-    "main": "index.js",
-    "scripts": {
-      "start": "node index.js"
-    },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/NehaKandpal/personal-to-do.git"
-    },
-    "keywords": [],
-    "author": "Your Name",
-    "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/NehaKandpal/personal-to-do/issues"
-    },
-    "homepage": "https://github.com/NehaKandpal/personal-to-do#readme",
-    "dependencies": {
-      "express": "^4.17.1",
-      "ejs": "^3.1.6"
-    }
+  "name": "to-do-ejs",
+  "version": "1.0.0",
+  "description": "A simple to-do list application using EJS, Express, and SQLite",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "ejs": "^3.1.6",
+    "body-parser": "^1.19.0",
+    "sqlite3": "^5.0.2"
+  },
+  "engines": {
+    "node": ">=12.0.0"
   }
-  
+}
